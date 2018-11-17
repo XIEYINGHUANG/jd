@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="./lib/swiper/css/swiper.css">
+        <link rel="stylesheet/less" href="./less/category.less">
+        <script src="./lib/less/less.js"></script>
+        <script>
+                setHtmlFontSize();
+
+
+    function setHtmlFontSize() {
+        // 1. 获取当前页面的宽度
+        var windowWidth = window.innerWidth;
+        // 2. 计算当前屏幕宽度需要设置的字体大小
+        var htmlFontSize = windowWidth / 10;
+        // 3. 把计算结果设置给html
+        document.querySelector('html').style.fontSize = htmlFontSize + 'px';
+    }
+    window.addEventListener('resize', setHtmlFontSize);
+    </script>
+</head>
+
+<body>
+        <!-- 头部区域 -->
+        <header id="header">
+                <!-- jd logo图标 使用精灵图 -->
+                <a href="#" class="icon-back"></a>
+                <form class="form" action="#">
+                        <!-- 搜索的图标 -->
+                        <i class="icon-search"></i>
+                        <!-- 搜索表单使用search 会让键盘的右下角的文字变成搜索 -->
+                        <input type="search" placeholder="请输入要搜索的商品">
+                </form>
+                <a href="#" class="icon-menu">
+                </a>
+        </header>
+        <!-- 主体区域 -->
+        <main id="main">
+                <div class="category-left">
+                        <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                                <ul style="transform: translateY(0px);" id="category2">
+                                                        <li class="cur" m_index="1" m_cid="WQR2006" id="category6"
+                                                                commonused="false"><a class="active" report-eventparam="2006_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.10" href="javascript:void(0);">热门推荐</a></li>
+                                                        <li m_index="2" m_cid="WQ1980" id="category7" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1980_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.2500" href="javascript:void(0);">手机数码</a></li>
+                                                        <li m_index="3" m_cid="WQ1982" id="category8" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1982_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.2900" href="javascript:void(0);">家用电器</a></li>
+                                                        <li m_index="4" m_cid="WQ1981" id="category9" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1981_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.2700" href="javascript:void(0);">电脑办公</a></li>
+                                                        <li m_index="5" m_cid="WQ1988" id="category10" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1988_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.4100" href="javascript:void(0);">计生情趣</a></li>
+                                                        <li m_index="6" m_cid="WQ2044" id="category11" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="2044_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.8000" href="javascript:void(0);">美妆护肤</a></li>
+                                                        <li m_index="7" m_cid="WQ2046" id="category12" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="2046_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.9000" href="javascript:void(0);">个护清洁</a></li>
+                                                        <li m_index="8" m_cid="WQ1990" id="category13" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1990_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.4500" href="javascript:void(0);">汽车用品</a></li>
+                                                        <li m_index="9" m_cid="WQ1968" id="category14" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1968_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.100" href="javascript:void(0);">京东超市</a></li>
+                                                        <li m_index="10" m_cid="WQ1972" id="category15" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1972_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.900" href="javascript:void(0);">男装</a></li>
+                                                        <li m_index="11" m_cid="WQ1974" id="category16" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1974_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.1300" href="javascript:void(0);">男鞋</a></li>
+                                                        <li m_index="12" m_cid="WQ1973" id="category17" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1973_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.1100" href="javascript:void(0);">女装</a></li>
+                                                        <li m_index="13" m_cid="WQ1975" id="category18" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1975_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.1500" href="javascript:void(0);">女鞋</a></li>
+                                                        <li m_index="14" m_cid="WQ1985" id="category19" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1985_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.3500" href="javascript:void(0);">母婴童装</a></li>
+                                                        <li m_index="15" m_cid="WQ1996" id="category20" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1996_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.5700" href="javascript:void(0);">图书音像</a></li>
+                                                        <li m_index="16" m_cid="WQ1989" id="category21" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1989_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.4300" href="javascript:void(0);">运动户外</a></li>
+                                                        <li m_index="17" m_cid="WQ1976" id="category22" commonused="true"
+                                                                class=""><a class="J_ping" report-eventparam="1976_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.1700" href="javascript:void(0);">内衣配饰</a></li>
+                                                        <li m_index="18" m_cid="WQ1983" id="category23" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1983_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.3100" href="javascript:void(0);">食品生鲜</a></li>
+                                                        <li m_index="19" m_cid="WQ1984" id="category24" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1984_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.3300" href="javascript:void(0);">酒水饮料</a></li>
+                                                        <li m_index="20" m_cid="WQ1992" id="category25" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1992_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.4900" href="javascript:void(0);">家具家装</a></li>
+                                                        <li m_index="21" m_cid="WQ1991" id="category26" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1991_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.4700" href="javascript:void(0);">家居厨具</a></li>
+                                                        <li m_index="22" m_cid="WQ1977" id="category27" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1977_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.1900" href="javascript:void(0);">箱包手袋</a></li>
+                                                        <li m_index="23" m_cid="WQ1979" id="category28" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1979_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.2300" href="javascript:void(0);">钟表珠宝</a></li>
+                                                        <li m_index="24" m_cid="WQ1986" id="category29" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1986_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.3700" href="javascript:void(0);">玩具乐器</a></li>
+                                                        <li m_index="25" m_cid="WQ1987" id="category30" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1987_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.3900" href="javascript:void(0);">医药保健</a></li>
+                                                        <li m_index="26" m_cid="WQ1994" id="category31" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1994_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.5300" href="javascript:void(0);">宠物生活</a></li>
+                                                        <li m_index="27" m_cid="WQ1993" id="category32" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1993_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.5100" href="javascript:void(0);">礼品鲜花</a></li>
+                                                        <li m_index="28" m_cid="WQ1998" id="category33" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1998_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.7200" href="javascript:void(0);">农资绿植</a></li>
+                                                        <li m_index="29" m_cid="WQ1995" id="category34" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1995_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.5500" href="javascript:void(0);">生活旅行</a></li>
+                                                        <li m_index="30" m_cid="WQ1970" id="category35" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1970_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.500" href="javascript:void(0);">奢侈品</a></li>
+                                                        <li m_index="31" m_cid="WQ1971" id="category36" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1971_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.700" href="javascript:void(0);">全球购</a></li>
+                                                        <li m_index="32" m_cid="WQ1997" id="category37" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1997_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.6600" href="javascript:void(0);">艺术邮币</a></li>
+                                                        <li m_index="33" m_cid="WQ2002" id="category38" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="2002_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.6800" href="javascript:void(0);">二手商品</a></li>
+                                                        <li m_index="34" m_cid="WQ1999" id="category39" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1999_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.7300" href="javascript:void(0);">特产馆</a></li>
+                                                        <li m_index="35" m_cid="WQ2000" id="category40" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="2000_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.7500" href="javascript:void(0);">京东金融</a></li>
+                                                        <li m_index="36" m_cid="WQ1969" id="category41" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="1969_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.300" href="javascript:void(0);">国际名牌</a></li>
+                                                        <li m_index="37" m_cid="WQ2001" id="category42" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="2001_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.6700" href="javascript:void(0);">拍卖</a></li>
+                                                        <li m_index="38" m_cid="WQ2008" id="category43" commonused="false"
+                                                                class=""><a class="J_ping" report-eventparam="2008_bysearchbox"
+                                                                        report-eventid="MCategory_1st"
+                                                                        report-eventlevel="2" ptag="137886.1.7000" href="javascript:void(0);">房产</a></li>
+                                                </ul>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+                <div class="category-right">
+                        <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                                <div class="jd-brand" style="transform: translateY(0px);">
+                                                        <div class="jd-category-div cur"><a href="http://coupon.m.jd.com/ranklist/hotSaleRankList.action?ptag=137886.4.1"
+                                                                        class="rank-box J_ping" report-eventid="MFilter_RankingList"
+                                                                        report-eventparam="2006_64754_bysearchbox"
+                                                                        report-eventlevel="2"><i class="rank-icon"></i><span>排行榜</span><i
+                                                                                class="right-arrow"></i></a>
+                                                                <h4>热门分类</h4>
+                                                                <ul class="jd-category-style-1">
+                                                                        <li><a class="J_ping" report-eventparam="65103_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_539"
+                                                                                        href="https://so.m.jd.com/products/9987-653-655.html?PTAG=137886.1.61&amp;searchFrom=category"><img
+                                                                                                src="//img14.360buyimg.com/focus/s140x140_jfs/t27136/183/1628977274/31007/a6f7ed55/5be6ebd8Nb07ef492.png"
+                                                                                                id="Imglazyload560"><span>手机</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="72547_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_540"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=充电宝&amp;PTAG=137886.1.68&amp;searchFrom=category"><img
+                                                                                                src="//img20.360buyimg.com/focus/s140x140_jfs/t24253/294/2182777138/4059/429945c9/5b76990bNde226fbc.png"
+                                                                                                id="Imglazyload561"><span>充电宝</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="72717_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_541"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=华为&amp;PTAG=137886.1.74&amp;searchFrom=category"><img
+                                                                                                src="//img30.360buyimg.com/focus/s140x140_jfs/t1/1446/14/631/8500/5b9237e5E0d1f9e16/b1a627b92323b5ed.png"
+                                                                                                id="Imglazyload562"><span>华为</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="68005_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_542"
+                                                                                        href="https://so.m.jd.com/products/670-699-700.html?PTAG=137886.1.71&amp;projectId=1715&amp;searchFrom=category"><img
+                                                                                                src="//img14.360buyimg.com/focus/s140x140_jfs/t27400/283/1600620667/15106/a935e7bd/5be6f2e1Nfa8d9d6e.png"
+                                                                                                id="Imglazyload563"><span>路由器</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="73003_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_543"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=蓝牙耳机&amp;PTAG=137886.1.62&amp;searchFrom=category"><img
+                                                                                                src="//img30.360buyimg.com/focus/s140x140_jfs/t1/6167/13/2827/3094/5bd2dbc8Edd449236/647416c61d30f0a4.jpg"
+                                                                                                id="Imglazyload564"><span>蓝牙耳机</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="73012_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_544"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=保暖内衣&amp;PTAG=137886.1.72&amp;searchFrom=category"><img
+                                                                                                src="//img13.360buyimg.com/focus/s140x140_jfs/t1/8075/17/2528/6114/5bd2e6adE0393f846/f14954f284a56cc3.png"
+                                                                                                id="Imglazyload565"><span>保暖内衣</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="73004_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_545"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=袜子&amp;PTAG=137886.1.63&amp;searchFrom=category"><img
+                                                                                                src="//img13.360buyimg.com/focus/s140x140_jfs/t1/2218/31/12406/9370/5bd2e748E843c7885/a143d0c4244bb145.png"
+                                                                                                id="Imglazyload566"><span>袜子</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="73013_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_546"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=iPhoneX&amp;PTAG=137886.1.73&amp;searchFrom=category"><img
+                                                                                                src="//img14.360buyimg.com/focus/s140x140_jfs/t1/5163/2/12280/5740/5bd2e5ecEc3fc56ad/ab2d17a2ae3002c0.png"
+                                                                                                id="Imglazyload567"><span>iPhoneX</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="73051_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_547"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=面膜&amp;PTAG=137886.1.65&amp;searchFrom=category"><img
+                                                                                                src="//img20.360buyimg.com/focus/s140x140_jfs/t28384/233/81224514/37765/8da180d4/5be6f0bbNcbb7f449.png"
+                                                                                                id="Imglazyload568"><span>面膜</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="72768_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_548"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=男士内裤&amp;PTAG=137886.1.66&amp;searchFrom=category"><img
+                                                                                                src="//img10.360buyimg.com/focus/s140x140_jfs/t1/5330/25/9335/25245/5baca7a4E7b11c7aa/f207304f560ea653.jpg"
+                                                                                                id="Imglazyload569"><span>男士内裤</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="73052_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_549"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=洗发水&amp;PTAG=137886.1.67&amp;searchFrom=category"><img
+                                                                                                src="//img13.360buyimg.com/focus/s140x140_jfs/t27148/342/1635695637/15397/d4ed72c2/5be6f2e8Nfcdab97b.png"
+                                                                                                id="Imglazyload570"><span>洗发水</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="73053_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_550"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=抽纸&amp;PTAG=137886.1.75&amp;searchFrom=category"><img
+                                                                                                src="//img11.360buyimg.com/focus/s140x140_jfs/t25981/3/2531207827/28017/74a9cf02/5be6f2edNbe45f02b.png"
+                                                                                                id="Imglazyload571"><span>抽纸</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="72781_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_551"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=剃须刀&amp;PTAG=137886.1.69&amp;searchFrom=category"><img
+                                                                                                src="//img13.360buyimg.com/focus/s140x140_jfs/t1/1860/37/9649/15932/5baca7b1Ecf514d87/02361661c2a70908.png"
+                                                                                                id="Imglazyload572"><span>剃须刀</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="72765_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_552"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=洗衣液&amp;PTAG=137886.1.64&amp;searchFrom=category"><img
+                                                                                                src="//img30.360buyimg.com/focus/s140x140_jfs/t1/9/15/10624/7280/5baca797E43b008fe/9bbe27f6503a4fd6.png"
+                                                                                                id="Imglazyload573"><span>洗衣液</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="73006_2006_64754_bysearchbox"
+                                                                                        report-eventid="MFilter_PopularThird"
+                                                                                        report-eventlevel="2" id="branch_553"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=鼠标&amp;PTAG=137886.1.70&amp;searchFrom=category"><img
+                                                                                                src="//img20.360buyimg.com/focus/s140x140_jfs/t27205/124/1568993455/17417/c6e116aa/5be6f126N9aea8ef3.png"
+                                                                                                id="Imglazyload574"><span>鼠标</span></a></li>
+                                                                        <div style="clear:both"></div>
+                                                                </ul>
+                                                        </div>
+                                                        <div class="jd-category-div cur">
+                                                                <h4>家电热搜</h4>
+                                                                <ul class="jd-category-style-1">
+                                                                        <li><a class="J_ping" report-eventparam="68695_2006_64753_bysearchbox"
+                                                                                        report-eventid="MCategory_Recommend"
+                                                                                        report-eventlevel="2" id="branch_554"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=%E5%86%B0%E7%AE%B1&amp;PTAG=137886.1.37&amp;searchFrom=category"><img
+                                                                                                src="//img20.360buyimg.com/focus/s140x140_jfs/t21115/83/225125274/13856/5473fb3f/5b0567c1N59d53b27.png"
+                                                                                                id="Imglazyload575"><span>冰箱</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="69082_2006_64753_bysearchbox"
+                                                                                        report-eventid="MCategory_Recommend"
+                                                                                        report-eventlevel="2" id="branch_555"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=洗衣机&amp;PTAG=137886.1.32&amp;searchFrom=category"><img
+                                                                                                src="//img14.360buyimg.com/focus/s140x140_jfs/t21664/15/237213959/24996/a3c6c7d6/5b0567c7N9cc1c355.png"
+                                                                                                id="Imglazyload576"><span>洗衣机</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="68817_2006_64753_bysearchbox"
+                                                                                        report-eventid="MCategory_Recommend"
+                                                                                        report-eventlevel="2" id="branch_556"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=电视&amp;PTAG=137886.1.33&amp;searchFrom=category"><img
+                                                                                                src="//img12.360buyimg.com/focus/s140x140_jfs/t18106/218/2672347202/29951/3618e960/5b0567cdN275fbcdd.png"
+                                                                                                id="Imglazyload577"><span>电视</span></a></li>
+                                                                        <div style="clear:both"></div>
+                                                                </ul>
+                                                        </div>
+                                                        <div class="jd-category-div cur">
+                                                                <h4>热卖手机</h4>
+                                                                <ul class="jd-category-style-1">
+                                                                        <li><a class="J_ping" report-eventparam="68669_2006_68668_bysearchbox"
+                                                                                        report-eventid="MCategory_Recommend"
+                                                                                        report-eventlevel="2" id="branch_557"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=%E5%8D%8E%E4%B8%BA%E6%89%8B%E6%9C%BA&amp;PTAG=137886.1.50&amp;searchFrom=category"><img
+                                                                                                src="//img30.360buyimg.com/focus/s140x140_jfs/t16333/58/1091559738/36108/3a56903e/5a4f4872Ndb69555f.png"
+                                                                                                id="Imglazyload578"><span>华为手机</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="68670_2006_68668_bysearchbox"
+                                                                                        report-eventid="MCategory_Recommend"
+                                                                                        report-eventlevel="2" id="branch_558"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=%E5%B0%8F%E7%B1%B3%E6%89%8B%E6%9C%BA&amp;PTAG=137886.1.52&amp;searchFrom=category"><img
+                                                                                                src="//img20.360buyimg.com/focus/s140x140_jfs/t16366/16/1307996090/39842/dbaa3c73/5a4f4867Ncb588473.png"
+                                                                                                id="Imglazyload579"><span>小米手机</span></a></li>
+                                                                        <li><a class="J_ping" report-eventparam="68756_2006_68668_bysearchbox"
+                                                                                        report-eventid="MCategory_Recommend"
+                                                                                        report-eventlevel="2" id="branch_559"
+                                                                                        href="https://so.m.jd.com/ware/search.action?keyword=苹果&amp;PTAG=137886.1.55&amp;searchFrom=category"><img
+                                                                                                src="//img30.360buyimg.com/focus/s140x140_jfs/t14245/137/2069922478/30524/1e8fc597/5a69d582N25086304.png"
+                                                                                                id="Imglazyload580"><span>苹果</span></a></li>
+                                                                        <div style="clear:both"></div>
+                                                                </ul>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </main>
+        <!-- 页码底部 -->
+        <footer id="footer">
+                <ul>
+                        <li>
+                                <a href="index.html">
+                                        <img src="https://m.360buyimg.com/mobilecms/jfs/t15145/137/2502885754/3106/de5e0b14/5aa10cd2N46f18ce6.png"
+                                                alt="">
+                                </a>
+                        </li>
+                        <li>
+                                <a href="category.html">
+                                        <img src="https://m.360buyimg.com/mobilecms/jfs/t19183/49/696491919/3763/dec8cceb/5aa10cdbNa9cd0320.png"
+                                                alt="">
+                                </a>
+                        </li>
+                        <li>
+                                <a href="cart.html">
+                                        <img src="https://m.360buyimg.com/mobilecms/jfs/t18583/69/717127328/4407/5e47882b/5aa10ceaN649eec12.png"
+                                                alt="">
+                                </a>
+                        </li>
+                        <li>
+                                <a href="user.html">
+                                        <img src="https://m.360buyimg.com/mobilecms/jfs/t17782/11/2358895717/4684/ad19de7f/5af43af1N04ef5a16.png"
+                                                alt="">
+                                </a>
+                        </li>
+                </ul>
+        </footer>
+        <script src="./lib/swiper/js/swiper.js"></script>
+        <script src="./js/category.js"></script>
+
+</body>
+
+</html>
